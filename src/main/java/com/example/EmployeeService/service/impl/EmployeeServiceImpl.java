@@ -55,7 +55,7 @@ public class EmployeeServiceImpl implements EmployeeService {
 //               DepartmentDTO.class);
 //               DepartmentDTO departmentDTO = response.getBody();
 
-        //COMMUNICATION USING FEIGN CLIENT
+           //    COMMUNICATION USING WEB CLIENT
 //        DepartmentDTO departmentDTO = webClient.get()
 //                .uri("http://localhost:8090/api/departments/" + employee.getDepartmentCode())
 //                .retrieve()
