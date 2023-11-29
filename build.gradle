@@ -61,6 +61,9 @@ dependencies {
 //	implementation 'org.springframework.cloud:spring-cloud-starter-sleuth:2.2.8.RELEASE'
 //	implementation 'org.springframework.cloud:spring-cloud-sleuth-zipkin:2.2.8.RELEASE'
 
+//spring cloud bus
+	implementation 'org.springframework.cloud:spring-cloud-starter-bus-amqp'
+
 }
 
 //spring cloud
