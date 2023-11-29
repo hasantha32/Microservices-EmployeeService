@@ -1,7 +1,9 @@
 package com.example.EmployeeService.entity;
 
-import jakarta.persistence.*;
 import lombok.*;
+
+import javax.persistence.*;
+
 
 @Entity
 @Getter

@@ -1,6 +1,7 @@
 plugins {
 	id 'java'
-	id 'org.springframework.boot' version '3.2.0'
+//	id 'org.springframework.boot' version '3.2.0'
+	id 'org.springframework.boot' version '2.7.14'
 	id 'io.spring.dependency-management' version '1.1.4'
 }
 
@@ -18,7 +19,8 @@ java {
 	}
 
 	ext {
-		set('springCloudVersion', "2023.0.0-RC1")
+//		set('springCloudVersion', "2023.0.0-RC1")
+		set('springCloudVersion', "2021.0.4")
 	}
 //
 
@@ -50,6 +52,15 @@ dependencies {
 	//	config server
 	implementation 'org.springframework.cloud:spring-cloud-starter-config'
 	implementation 'org.springframework.boot:spring-boot-starter-actuator'
+
+//distributed tracing
+	implementation 'org.springframework.cloud:spring-cloud-starter-sleuth'
+	implementation 'org.springframework.cloud:spring-cloud-sleuth-zipkin'
+
+////distributed tracing
+//	implementation 'org.springframework.cloud:spring-cloud-starter-sleuth:2.2.8.RELEASE'
+//	implementation 'org.springframework.cloud:spring-cloud-sleuth-zipkin:2.2.8.RELEASE'
+
 }
 
 //spring cloud
